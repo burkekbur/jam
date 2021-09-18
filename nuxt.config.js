@@ -4,7 +4,7 @@ const pkg = require('./package')
 module.exports = {
   mode: 'spa',
   router: {
-     base: '/nuxt-gh-pages/'
+     base: '/jam/'
    },
   /*
   ** Headers of the page
