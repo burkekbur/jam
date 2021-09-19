@@ -4,7 +4,7 @@ const pkg = require('./package')
 module.exports = {
   mode: 'spa',
   router: {
-     base: '/jam/'
+     base: '/'
    },
   /*
   ** Headers of the page
@@ -30,6 +30,7 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    "@assets/css/main.css"
   ],
 
   /*
